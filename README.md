@@ -1,28 +1,27 @@
-__Данные__:
-Использую данные с Kaggle по распределению аэропортов по странам. Данные собраны из источника FlightRadar.
-В нашем df имеются следующие колонки:
-*name* - название аэропорта
-*iata* - международная ассоциация воздушного транспорта (IATA)
-*icao* - формат Международной организации гражданской авиации (ИКАО)
-*lat* - широта
-*lon* - долгота
-*country* - страна
-*alt* - высота, измеренная по отношению земной поверхности к уровню моря.
+__Data__:
+I am using data from Kaggle on the distribution of airports by country. The data is collected from the FlightRadar source. In our dataframe (df), the following columns are present:
+*name* - airport name
+*iata* - International Air Transport Association (IATA) code
+*icao* - International Civil Aviation Organization (ICAO) format
+*lat* - latitude
+*lon* - longitude
+*country* - country
+*alt* - altitude measured relative to sea level.
 
-__Цель__:
-- Проверить данные
-- Выявить Топ10 стран по кол-ву аэропортов
-- Сделать визуализацию
-- Добавить карту распределения аэропортов по долготе и широте
+__Objective:__
+- Verify the data
+- Identify the Top 10 countries by the number of airports
+- Create visualization
+- Add a map of airport distribution by longitude and latitude
 
-__Используемые библиотеки__:
+__Used libraries:__
 - pandas
 - matplotlib
 - Point
 - geopandas
 
-
-__Результаты__:
-- В рамках анализа данных выявлен аэропорт Charlevoix Municipal Airport с устаревшим кодом ICAO
-- Определены Топ-10 стран по наибольшему и наименьшему кол-ву аэропортов
-- Визуализация в виде карты с распределение аэропортов согласно данным по долготе и широте
+  
+__Results:__
+During the data analysis, the airport Charlevoix Municipal Airport with an outdated ICAO code was identified.
+The Top 10 countries with the highest and lowest number of airports were determined.
+Visualization in the form of a map showing the distribution of airports according to longitude and latitude data.
